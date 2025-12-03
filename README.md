@@ -1,71 +1,149 @@
-# Getting Started with Create React App
+🚀 SaaS Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive SaaS Admin Dashboard built with React, featuring analytics cards, interactive charts, user tables powered by a REST API, multi-page routing, and dark/light theme switching.
 
-## Available Scripts
+This project demonstrates strong skills in frontend engineering, UI architecture, API integration, and React component design.
 
-In the project directory, you can run:
+✨ Features
+📊 Analytics Dashboard
 
-### `npm start`
+KPI cards: Total Users, Active Subscriptions, Monthly Revenue
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Interactive line chart using Recharts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clean, responsive layout for all screen sizes
 
-### `npm test`
+👥 Users Module
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Fetched from a public REST API (JSONPlaceholder)
 
-### `npm run build`
+Appears on the Dashboard and dedicated Users page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Search functionality included
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🧭 Navigation & Routing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Built with React Router DOM v6
 
-### `npm run eject`
+Dashboard
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Users
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Reports
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Settings
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🌗 Dark / Light Mode
 
-## Learn More
+One-click theme toggle
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Styles applied globally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧱 Component Structure
 
-### Code Splitting
+components/ – Sidebar, Topbar, SalesChart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+pages/ – Dashboard, Users, Reports, Settings
 
-### Analyzing the Bundle Size
+Reusable layout + modular CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🛠 Tech Stack
 
-### Making a Progressive Web App
+| Category | Technologies                           |
+| -------- | -------------------------------------- |
+| Frontend | React, JavaScript (ES6+), React Router |
+| Charts   | Recharts                               |
+| Styling  | CSS3                                   |
+| API      | Fetch API (JSONPlaceholder)            |
+| Tools    | Git, GitHub, VS Code                   |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📁 Project Structure
 
-### Advanced Configuration
+saas-admin-dashboard/
+│
+├── src/
+│   ├── components/
+│   │   ├── Sidebar.js
+│   │   ├── Topbar.js
+│   │   └── SalesChart.js
+│   │
+│   ├── pages/
+│   │   ├── Dashboard.js
+│   │   ├── Users.js
+│   │   ├── Reports.js
+│   │   └── Settings.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+│
+├── public/
+├── package.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📸 Screenshots
 
-### Deployment
+<img width="1920" height="976" alt="Screenshot 2025-12-03 190329" src="https://github.com/user-attachments/assets/2b10c523-3c86-426d-ab5f-2dde76da5db8" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img width="1920" height="972" alt="Screenshot 2025-12-03 190440" src="https://github.com/user-attachments/assets/770db735-f511-46db-a039-df374d68334f" />
 
-### `npm run build` fails to minify
+<img width="1920" height="978" alt="Screenshot 2025-12-03 190632" src="https://github.com/user-attachments/assets/7d42fdad-3672-4f2e-b796-d50660dd79ce" />
 
+
+🚀 Getting Started
+
+Clone the repository:
+
+git clone https://github.com/waquaralam077/saas-admin-dashboard.git
+cd saas-admin-dashboard
+
+
+Install dependencies:
+
+npm install
+
+
+Start server:
+
+npm start
+
+
+Runs at:
+http://localhost:3000
+
+🔌 API Used
+
+Users fetched from:
+
+https://jsonplaceholder.typicode.com/users
+
+🧠 Future Enhancements
+
+Authentication (JWT / Firebase)
+
+Role-based access
+
+Better analytics
+
+Database and backend integration
+
+Report downloads (CSV/PDF)
+
+Mobile drawer navigation
+
+🧑‍💻 Author
+
+Waquar Alam
+Frontend Developer – React, JavaScript
+GitHub: https://github.com/waquaralam077
+
+⭐ Star this repo if you found it useful!
+
+
+
+<<<<<<< HEAD
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+=======
+>>>>>>> 7079c65 (Updated professional project README)
