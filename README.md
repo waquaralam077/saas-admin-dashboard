@@ -5,6 +5,7 @@ A modern, responsive SaaS Admin Dashboard built with React, featuring analytics 
 This project demonstrates strong skills in frontend engineering, UI architecture, API integration, and React component design.
 
 ✨ Features
+
 📊 Analytics Dashboard
 
 KPI cards: Total Users, Active Subscriptions, Monthly Revenue
@@ -86,9 +87,12 @@ saas-admin-dashboard/
 
 <img width="1920" height="976" alt="Screenshot 2025-12-03 190329" src="https://github.com/user-attachments/assets/2b10c523-3c86-426d-ab5f-2dde76da5db8" />
 
+
 <img width="1920" height="972" alt="Screenshot 2025-12-03 190440" src="https://github.com/user-attachments/assets/770db735-f511-46db-a039-df374d68334f" />
 
+
 <img width="1920" height="978" alt="Screenshot 2025-12-03 190632" src="https://github.com/user-attachments/assets/7d42fdad-3672-4f2e-b796-d50660dd79ce" />
+
 
 
 🚀 Getting Started
