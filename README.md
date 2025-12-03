@@ -114,7 +114,7 @@ npm start
 
 
 Runs at:
-http://localhost:3000
+https://saas-admin-dashboard-waquaralam077.netlify.app/
 
 🔌 API Used
 
