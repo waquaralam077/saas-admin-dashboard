@@ -5,6 +5,7 @@ const Dashboard = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
+    // Fake API for demo
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
       .then((data) => setUsers(data))
@@ -14,7 +15,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <div className="cards">
-        <div className="card">Total Users: {users.length}</div>
+        <div className="card">Total Users: {users.length || 10}</div>
         <div className="card">Active Subscriptions: 320</div>
         <div className="card">Monthly Revenue: $12,500</div>
       </div>

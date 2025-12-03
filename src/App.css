@@ -1,3 +1,39 @@
+.app.light {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.app.dark {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.app.dark .sidebar {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.app.dark .main-content {
+  background: #020617;
+}
+
+.app.dark .topbar,
+.app.dark .card,
+.app.dark .chart-card,
+.app.dark .table-card {
+  background: #0f172a;
+  color: #e5e7eb;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.7);
+}
+.theme-toggle {
+  margin-right: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
 .app {
   display: flex;
   min-height: 100vh;
@@ -90,4 +126,40 @@
 
 .table-card th {
   font-weight: 600;
+}
+.table-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.table-card h3 {
+  margin-bottom: 1rem;
+}
+
+.table-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-card th,
+.table-card td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table-card th {
+  font-weight: 600;
+}
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
 }
